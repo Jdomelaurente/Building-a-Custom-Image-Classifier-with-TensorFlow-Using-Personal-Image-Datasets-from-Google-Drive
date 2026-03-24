@@ -2,6 +2,9 @@
 
 This project uses a Convolutional Neural Network (CNN) built with TensorFlow/Keras to classify 20 different species of flowers with **86.20% accuracy**.
 
+## 🔗 Project Link
+* **Google Colab Notebook:** [View Project Here](https://colab.research.google.com/drive/1PbjFRL-OjVKxQpNkHv8AFCzJ9Z2rNqxw?usp=sharing)
+
 ## 📊 Model Performance
 * **Final Validation Accuracy:** 86.20%
 * **Final Validation Loss:** 0.49
@@ -24,9 +27,3 @@ This project uses a Convolutional Neural Network (CNN) built with TensorFlow/Ker
 ### 4. Deployment & Application
 * **Importance of Saving:** Saving the model as a `.keras` file stores the AI's "brain." This lets you use it instantly later without waiting 20 minutes to train it again.
 * **Real-World Application:** This could be used in a Mobile App for hikers to identify plants in the wild or for gardeners to identify flowers in their backyard.
-
-## 🚀 How to Run
-1. Open the notebook in **Google Colab**.
-2. Mount your **Google Drive**.
-3. Set your `dataset_path` to the folder containing the 20 flower categories.
-4. Run all cells to train or use `model.load()` to use the saved `.keras` file.
